@@ -26,6 +26,9 @@ importers:
       lint-staged:
         specifier: ^15.2.10
         version: 15.2.11
+      mathjs:
+        specifier: 3.10.1
+        version: 3.10.1
       rimraf:
         specifier: ^6.0.1
         version: 6.0.1
@@ -847,6 +850,9 @@ packages:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
     engines: {node: '>= 6'}
 
+  complex.js@2.0.1:
+    resolution: {integrity: sha512-zu2kFxCi8x66budGAEfHcLk0+dcT4EdtiwJ9oIFrvDq8ARJ4T4F3hC0qXc5tn+FzIOYaEOZfO6ew6t6wmGfwpg==}
+
   consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
@@ -863,6 +869,9 @@ packages:
     peerDependenciesMeta:
       supports-color:
         optional: true
+
+  decimal.js@7.1.1:
+    resolution: {integrity: sha512-JAYTBScouq/tbesTv17VT4/Zf4kOguK6LRp9lK8IasQpzC1u4X5z+fNIasI3Le+kBXpo83hyTp6asVgTHIDlGw==}
 
   deep-eql@5.0.2:
     resolution: {integrity: sha512-h5k/5U50IJJFpzfL6nO9jaaumfjO/f2NjK/oYB2Djzm4p9L+3T9qWpZqZ2hAbLPuuYq9wrU08WQyBTL5GbPk5Q==}
@@ -947,6 +956,9 @@ packages:
   foreground-child@3.3.0:
     resolution: {integrity: sha512-Ld2g8rrAyMYFXBhEqMz8ZAHBi4J4uS1i/CxGMDnjyFWddMXLVcDp051DZfu+t7+ab7Wv6SMqpWmyFIj5UbfFvg==}
     engines: {node: '>=14'}
+
+  fraction.js@4.0.0:
+    resolution: {integrity: sha512-VFj4e6g5arfi1iH4YOHao6Aq8ZB9e+R4mW8dUZA0qeLqVQWKMc4+4N/U1eTWPuddMsXd0MjwGRFRzBW2G7msBA==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1091,6 +1103,11 @@ packages:
   marked@9.1.6:
     resolution: {integrity: sha512-jcByLnIFkd5gSXZmjNvS1TlmRhCXZjIzHYlaGkPlLIekG55JDR2Z4va9tZwCiP+/RDERiNhMOFu01xd6O5ct1Q==}
     engines: {node: '>= 16'}
+    hasBin: true
+
+  mathjs@3.10.1:
+    resolution: {integrity: sha512-tLE2qiW/m6Y1J0sVlUe3WdjLCoO3gxcZ9xPn7hdW0xBitHFilLDj4tmISJLZJBUL8xsB2HBGB3Y+lruipAppbA==}
+    engines: {node: '>= 0.1'}
     hasBin: true
 
   merge-stream@2.0.0:
@@ -1273,6 +1290,9 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
+  seed-random@2.2.0:
+    resolution: {integrity: sha512-34EQV6AAHQGhoc0tn/96a9Fsi6v2xdqe/dMUwljGRaFOzR3EgRmECvD0O8vi8X+/uQ50LGHfkNu/Eue5TPKZkQ==}
+
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -1371,6 +1391,9 @@ packages:
   thenify@3.3.1:
     resolution: {integrity: sha512-RVZSIV5IG10Hk3enotrhvz0T9em6cyHBLkH/YAZuKqd8hRkKhSfCGIcP2KUY0EPxndzANBmNllzWPwak+bheSw==}
 
+  tiny-emitter@1.0.2:
+    resolution: {integrity: sha512-y87VH5ncX+MzK2rqEF6v7Ad8gOdQDV1jiFT5bXUrWGBTFN9EFLrvufpWryNipgFDCzQ4fTOTPUCZGLYoQ2D9UA==}
+
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
 
@@ -1464,6 +1487,10 @@ packages:
   turbo@2.3.3:
     resolution: {integrity: sha512-DUHWQAcC8BTiUZDRzAYGvpSpGLiaOQPfYXlCieQbwUvmml/LRGIe3raKdrOPOoiX0DYlzxs2nH6BoWJoZrj8hA==}
     hasBin: true
+
+  typed-function@0.10.5:
+    resolution: {integrity: sha512-5BI8zKF/aZhsXJJKcRvcOuDCzBVY4R08Ok8ilRWHpQ5Np+LwzWeGzaIUNUw++d19Vvv8iqzvaN9/h5WDdY8cmg==}
+    engines: {node: '>= 0.10'}
 
   typescript@5.6.1-rc:
     resolution: {integrity: sha512-E3b2+1zEFu84jB0YQi9BORDjz9+jGbwwy1Zi3G0LUNw7a7cePUrHMRNy8aPh53nXpkFGVHSxIZo5vKTfYaFiBQ==}
@@ -2138,6 +2165,8 @@ snapshots:
 
   commander@4.1.1: {}
 
+  complex.js@2.0.1: {}
+
   consola@3.2.3: {}
 
   cross-spawn@7.0.6:
@@ -2149,6 +2178,8 @@ snapshots:
   debug@4.4.0:
     dependencies:
       ms: 2.1.3
+
+  decimal.js@7.1.1: {}
 
   deep-eql@5.0.2: {}
 
@@ -2286,6 +2317,8 @@ snapshots:
     dependencies:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
+
+  fraction.js@4.0.0: {}
 
   fsevents@2.3.3:
     optional: true
@@ -2435,6 +2468,15 @@ snapshots:
       supports-hyperlinks: 3.1.0
 
   marked@9.1.6: {}
+
+  mathjs@3.10.1:
+    dependencies:
+      complex.js: 2.0.1
+      decimal.js: 7.1.1
+      fraction.js: 4.0.0
+      seed-random: 2.2.0
+      tiny-emitter: 1.0.2
+      typed-function: 0.10.5
 
   merge-stream@2.0.0: {}
 
@@ -2598,6 +2640,8 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.28.1
       fsevents: 2.3.3
 
+  seed-random@2.2.0: {}
+
   semver@7.6.3: {}
 
   shebang-command@2.0.0:
@@ -2703,6 +2747,8 @@ snapshots:
     dependencies:
       any-promise: 1.3.0
 
+  tiny-emitter@1.0.2: {}
+
   tinybench@2.9.0: {}
 
   tinyexec@0.3.1: {}
@@ -2790,6 +2836,8 @@ snapshots:
       turbo-linux-arm64: 2.3.3
       turbo-windows-64: 2.3.3
       turbo-windows-arm64: 2.3.3
+
+  typed-function@0.10.5: {}
 
   typescript@5.6.1-rc: {}
 
